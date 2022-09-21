@@ -1,0 +1,29 @@
+// Colors
+$green: #94aa84;
+$green-white: #ECF1E9;
+
+// Fonts
+$title: 'Henny Penny', cursive;
+$text: 'Lateef', cursive;
+
+html {
+  height: 100vh;
+}
+
+body {
+  color: $green-white;
+  background-color: $green;
+}
+
+h1 {
+  margin: 1rem 0;
+  font-family: $title;
+  text-align: center;
+  font-size: 3.5rem;
+}
+
+.welcome-text {
+  font-family: $text;
+  text-align: center;
+  font-size: 1.6rem;
+}

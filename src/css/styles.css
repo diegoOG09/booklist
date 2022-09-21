@@ -1,0 +1,21 @@
+html {
+  height: 100vh;
+}
+
+body {
+  color: #ECF1E9;
+  background-color: #94aa84;
+}
+
+h1 {
+  margin: 1rem 0;
+  font-family: "Henny Penny", cursive;
+  text-align: center;
+  font-size: 3.5rem;
+}
+
+.welcome-text {
+  font-family: "Lateef", cursive;
+  text-align: center;
+  font-size: 1.6rem;
+}/*# sourceMappingURL=styles.css.map */
