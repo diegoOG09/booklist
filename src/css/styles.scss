@@ -1,10 +1,10 @@
 // Colors
 $green: #94aa84;
-$green-white: #ECF1E9;
+$green-white: #ecf1e9;
 
 // Fonts
-$title: 'Henny Penny', cursive;
-$text: 'Lateef', cursive;
+$title: "Henny Penny", cursive;
+$text: "Lateef", cursive;
 
 html {
   height: 100vh;
@@ -30,6 +30,86 @@ h1 {
 
 .books-grid {
   display: grid;
-  grid-template-columns: repeat(3,1fr);
+  grid-template-columns: repeat(3, 1fr);
   font-family: $text;
+  width: 70%;
+  margin: 0 auto;
+  text-align: center;
+
+  h3 {
+    margin: 0;
+  }
+
+  img {
+    border-radius: 10px;
+    width: 200px;
+    animation: fadeIn ease 2s;
+    -webkit-animation: fadeIn ease 2s;
+    -moz-animation: fadeIn ease 2s;
+    -o-animation: fadeIn ease 2s;
+    -ms-animation: fadeIn ease 2s;
+  }
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+  @-moz-keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+  @-webkit-keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+  @-o-keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+  @-ms-keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+}
+
+.img-izq {
+  img {
+    width: 12%;
+    position: absolute;
+    right: 0px;
+    top: 55%;
+  }
+}
+
+.img-der {
+  img {
+    transform: scaleX(-1);
+    width: 12%;
+    position: absolute;
+    left: 0;
+    top: 55%;
+  }
 }

@@ -3,7 +3,7 @@ html {
 }
 
 body {
-  color: #ECF1E9;
+  color: #ecf1e9;
   background-color: #94aa84;
 }
 
@@ -24,4 +24,50 @@ h1 {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   font-family: "Lateef", cursive;
+  width: 70%;
+  margin: 0 auto;
+  text-align: center;
+}
+.books-grid h3 {
+  margin: 0;
+}
+.books-grid img {
+  border-radius: 10px;
+  width: 200px;
+  animation: fadeIn ease 2s;
+  -webkit-animation: fadeIn ease 2s;
+  -moz-animation: fadeIn ease 2s;
+  -o-animation: fadeIn ease 2s;
+  -ms-animation: fadeIn ease 2s;
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.img-izq img {
+  width: 12%;
+  position: absolute;
+  right: 0px;
+  top: 55%;
+}
+
+.img-der img {
+  transform: scaleX(-1);
+  width: 12%;
+  position: absolute;
+  left: 0;
+  top: 55%;
 }/*# sourceMappingURL=styles.css.map */
