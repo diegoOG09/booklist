@@ -18,4 +18,10 @@ h1 {
   font-family: "Lateef", cursive;
   text-align: center;
   font-size: 1.6rem;
+}
+
+.books-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  font-family: "Lateef", cursive;
 }/*# sourceMappingURL=styles.css.map */

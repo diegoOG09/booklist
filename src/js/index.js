@@ -22,7 +22,9 @@ document.addEventListener('DOMContentLoaded', () => {
         author.innerHTML = `${book.author}`
         isbn.innerHTML = `${book.isbn}`
 
-        div.appendChild(title, author, isbn)
+        div.appendChild(title)
+        div.appendChild(author)
+        div.appendChild(isbn)
         booksGridDiv.appendChild(div)
       })
     })
